@@ -262,7 +262,7 @@ premium_moods = mood_history_premium
 basic_moods = mood_history_basic
 
 print("Mood Summary... LOADING...")
-print("Total Moods: " + str(total_moods))
+print(f"Total Moods: {str(total_moods)}")
 print("Premium Moods: " + ", ".join(premium_moods))
 print("Basic Moods: " + ", ".join(basic_moods))
 print("Powered by EVOS...")
